@@ -122,7 +122,7 @@ onclickevent(n){
       .addUser(this.user)
       .subscribe(data => console.log(data)
        );
-       this.router.navigate(['/']);
+       this.router.navigate(['/login']);
       
   }
 
